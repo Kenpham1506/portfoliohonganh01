@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Placeholders</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ffcccc, #ffcc66);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .project {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .project:hover {
+            transform: scale(1.05);
+        }
+        .project-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .project-description {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .project-placeholder {
+            background-color: #eee;
+            height: 150px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="project">
+        <div class="project-placeholder"></div>
+        <div class="project-title">Project 1</div>
+        <div class="project-description">This is a brief description of Project 1.</div>
+    </div>
 
+    <div class="project">
+        <div class="project-placeholder"></div>
+        <div class="project-title">Project 2</div>
+        <div class="project-description">This is a brief description of Project 2.</div>
+    </div>
+
+    <div class="project">
+        <div class="project-placeholder"></div>
+        <div class="project-title">Project 3</div>
+        <div class="project-description">This is a brief description of Project 3.</div>
+    </div>
+</body>
+</html>
